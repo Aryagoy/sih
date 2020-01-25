@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap - Data Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/vendor/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link href="css/jquery.bdt.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+            <div class="box clearfix">
+            <h3>Bootstrap Data Table</h3>
+            <p>Easily turn your tables into datatables.</p>
+
+            <table class="table table-hover" id="bootstrap-table">
+                <thead>
+                <tr>
+                    <th>#pk</th>
+                    <th>name</th>
+                    <th>age</th>
+                    <th>height</th>
+                    <th>weight</th>
+                    <th>blood_group</th>
+                    <th>vision</th>
+                    <th>gender</th>
+                    <th>address</th>
+                    <th>adhar_number</th>
+                    <th>pan</th>
+                    <th>abnormalities</th>
+                    <th>family_hist</th>
+                    <th>income</th>
+                    <th>father_name</th>
+                    <th>fathers_occ</th>
+                    <th>mother_occ</th>
+                    <th>mother_name</th>
+                    <th>pob</th>
+                    <th>dob</th>
+                    <th>occupation</th>
+                    <th>caste</th>
+                    <th>phone_no</th>
+                    <th>religious_minority</th>
+                    <th>prev_insurance</th>
+                    <th>nationality</th>
+                    <th>smoker</th>
+                    <th>alcohol</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>200</td>
+                    <td>janedoe</td>
+                    <td>Yane</td>
+                    <td>Doe</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="js/vendor/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/vendor/jquery.sortelements.js" type="text/javascript"></script>
+<script src="js/jquery.bdt.min.js" type="text/javascript"></script>
+<script>
+    $(document).ready( function () {
+        $('#bootstrap-table').bdt({
+            showSearchForm: 0,
+            showEntriesPerPageField: 0
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>team</title>
+
+<body >
+
+<form action=" " id="Health Insurance Form" method="post" >
+<!--<script type="text/javascript">
+function ValidateForm(frm) {
+if (frm.First_Name.value == "") { alert('First name is required.'); frm.First_Name.focus(); return false; }
+if (frm.Last_Name.value == "") { alert('Last name is required.'); frm.Last_Name.focus(); return false; }
+if (frm.Email_Address.value == "") { alert('Email address is required.'); frm.Email_Address.focus(); return false; }
+if (frm.Email_Address.value.indexOf("@") < 1 || frm.Email_Address.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.Email_Address.focus(); return false; }
+if (frm.Position.value == "") { alert('Position is required.'); frm.Position.focus(); return false; }
+if (frm.Phone.value == "") { alert('Phone is required.'); frm.Phone.focus(); return false; }
+return true; }
+</script>-->
+<table border="0" cellpadding="5" cellspacing="10">
+<tr> <td style="width: 50%">
+
+<label for="Name"><b>Name *</b></label><br />
+<input name="name" type="text" maxlength="100" style="width: 260px" />
+</td>  <td style="width: 50%">
+
+<label for="DOB"><b>DOB</b></label><br />
+<input name="DOB" type="text" maxlength="50" style="width: 260px" />
+</td>  <td colspan="2">
+
+<label for="Place of Birth"><b>Place of Birth</b></label><br />
+<input name="Pob" style="width: 250px"></textarea>
+</td> </tr> <tr> <td colspan="2" >
+
+<label for="Age"><b>Age *</b></label><br />
+<input name="age" type="text" maxlength="25" style="width: 53px" />
+</td> </tr> <tr>  <td colspan="2">
+
+<label for="Gender"><b>Gender(M/F) *</b></label><br />
+<input name="Gender" type="text" maxlength="10" style="width: 55px" />
+</td> </tr> <tr> <td>
+
+<label for="Caste"><b>Caste *</b></label><br />
+<input name="Caste" type="text" maxlength="50" style="width: 260px" />
+</td>  <td>
+
+<label for="Religious Minority"><b>Religious Minority(Y/N)*</b></label><br />
+<input name="Religious Minority" type="text"  maxlength="10" style="width:55px"  />
+</td> </tr> <tr> <td colspan="2">
+
+    <label for="prev_insurance"><b>Previous insurance(Y/N)*</b></label><br />
+    <input name="prev_insurance" type="text"  maxlength="10" style="width:55px"  />
+    </td> </tr> <tr> <td colspan="2">
+
+
+<label for="Personal Phone"><b>Personal Phone *</b></label><br />
+<input name="Phone" type="text" maxlength="50" style="width: 260px" />
+</td> </tr> <tr> <td>
+
+<label for="Father/Husband Name"><b>Father/Husband Name*</b></label><br />
+<input name="Father/Husband Name" style="width: 250px"></textarea>
+</td>  <td colspan="2" >
+
+<label for="focc"><b>Father/Husband Occupation *</b></label><br />
+<input name="focc" type="text" maxlength="50" style="width: 260px" />
+</td> </tr> <tr> <td>
+
+  <label for="Mother Name"><b>Mother Name*</b></label><br />
+  <input name="Mother Name" style="width: 250px"></textarea>
+  </td>  <td colspan="2" >
+
+  <label for="mocc"><b>Mother Occupation *</b></label><br />
+  <input name="mocc" type="text" maxlength="50" style="width: 260px" />
+  </td> </tr> <tr> <td>
+
+  <label for="Blood Group"><b>Blood Group</b></label><br />
+  <input name="Blood Group" type="text" maxlength="50" style="width: 260px" />
+  </td> </tr> <tr> <td colspan="2">
+
+
+
+<label for="Aadhar"><b>Aadhar card *</b></label><br />
+<input name="Aadhar" type="text" maxlength="50" style="width: 260px" />
+</td> </tr> <tr> <td style="width: 50%">
+  <label for="Address"><b>Address *</b></label><br />
+<input name="Address" type="text" maxlength="200" style="width: 260px" />
+</td> </tr> <tr> <td style="width: 50%">
+
+<label for="Pan Card"><b>Pan card</b></label><br />
+<input name="Pan Card" type="text" maxlength="50" style="width: 260px" />
+</td> </tr> <tr> <td colspan="2">
+<label for="nat"><b>Nationality</b></label><br />
+<input name="nat" type="text" maxlength="50" style="width: 260px" />
+</td> </tr> <tr> <td colspan="2">
+
+
+
+<label for="Income"><b>Income(select one)</b></label><br />
+<input name="Income[]" type="checkbox" value="5lakh." checked="checked" value="less than 5lakh"/> less than 5lakh
+<input name="Income[]" type="checkbox" value="10Lakh" value="10Lakh-20Lakh"/> 10Lakh-20Lakh
+<input name="Income[]" type="checkbox" value="15Lakh" value="35Lakh and above" /> 35Lakh and above
+</td> </tr> <tr> <td colspan="2">
+
+
+
+<label for="Occupation"><b>Occupation</b></label><br />
+<input name="Occupation" type="text" maxlength="50" style="width: 250px" />
+</td> </tr> <tr> <td colspan="1">
+
+
+
+<label for="Height"><b>Height</b></label><br /> <input name="Height" type="text" maxlength="50" style="width: 260px" /> </td> <td>
+<label for="Weight"><b>Weight</b></label><br /><input name="Weight" type="text" maxlength="50" style="width: 260px" /> </td> <td>
+
+<label for="Vision"><b>Vision *</b></label><br /><input name="Vision" type="text" maxlength="50" style="width: 260px" />
+</td></tr> <tr> <td colspan="2">
+
+  <label for="alcohol"><b>Alcoholic(Y/N) *</b></label><br />
+  <input name="alcohol" type="text" maxlength="50" style="width: 55px" />
+  </td>  </tr><tr><td colspan="1">
+
+  <label for="smoke"><b>Smoker(Y/N)*</b></label><br />
+  <input name="smoke" type="text"  maxlength="10" style="width:55px"  />
+  </td> </tr> <tr> <td colspan="1">
+
+  <h2> Physical Health </h2>
+  <label for="Physical Health"><b>Please Check all those that apply </b></label><br />
+  <input name="Physical_Health[]" type="checkbox"  checked="checked" value="Vision Impairement"/> Vision Impairment
+  <input name="Physical_Health[]" type="checkbox" value="Hearing Impairement"  /> Hearing Impairment
+  <input name="Physical_Health[]" type="checkbox" value="Speech Impairement"  /> Speech Impairment
+  <input name="Physical_Health[]" type="checkbox" value="Dyslexia"  /> Dyslexia
+  <input name="Physical_Health[]" type="checkbox" value="None"/> None
+  </td> </tr> <tr> <td colspan="2">
+
+
+
+<h2> Family History </h2>
+<label for="Family History"><b>Please Check all those that apply </b></label><br />
+<input name="checks[]" type="checkbox"  checked="checked" value="Diabetes" /> Diabetes
+<input name="checks[]" type="checkbox" value="cancer"  /> Cancer
+<input name="checks[]" type="checkbox" value="Chronic Eye Disease"  /> Chronic Eye Disease
+<input name="checks[]" type="checkbox" value="High Blood Pressure"  /> High Blood Pressure
+<input name="checks[]" type="checkbox"/> None
+</td> </tr> <tr> <td colspan="2">
+
+
+
+
+<div style="float: right"> <a href="" id="lnk100" title="form to email">Recieve copy via email</a></div>
+<!--<script src="" type="text/javascript"></script>-->
+<input name="skip_submit" type="submit" value="Submit Form" onclick="location.href="http://127.0.0.1:8000/login/dynamic_images/"/>
+</td> </tr>
+</table>
+</form>
+</body>
+</head>
+</html>

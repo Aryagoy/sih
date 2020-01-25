@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style>
+
+body {background-color: powderblue;}
+form {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -250px;
+  width: 500px;
+  height: 200px;
+  border: 4px dashed #fff;
+}
+
+input[type="file"]
+{
+  padding-top: 80px;
+  padding-left: 80px;
+}
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+    <div class="box">
+
+
+<form method = "POST" action = "/" enctype="multipart/form-data">
+
+
+<input type = 'file' name = 'fileImage'>
+<input type = 'submit' value ='upload'>
+</form>
+</div>
+</body>
+</html>
